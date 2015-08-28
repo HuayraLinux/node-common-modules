@@ -1,0 +1,15 @@
+node-common-modules (0.2) unstable; urgency=low
+
+  * Remuevo todos los subdirectorios de node_modules
+    y los agrego como dependencias de los repos.
+  * Bump standards-version
+
+ -- Mauro <mauro@sdf.org>  Fri, 28 Aug 2015 15:12:45 -0300
+
+node-common-modules (0.1) unstable; urgency=low
+
+  * Initial release 
+
+ -- Mauro <mauro@sdf.org>  Thu, 27 Aug 2015 18:00:39 -0300
+
+
