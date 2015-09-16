@@ -1,6 +1,14 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: -
 
+Files: node_modules/q
+Copyright: 2009–2014 Kristopher Michael Kowal <kris@cixar.com>
+License: MIT
+
+Files: node_modules/walk
+Copyright: 2011 AJ ONeal <coolaj86@gmail.com>
+License: MIT
+
 Files: debian/*
 Copyright: 2013 Mauro <mauro@sdf.org>
 License: GPL-2+

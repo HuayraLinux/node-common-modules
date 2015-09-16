@@ -1,3 +1,9 @@
+node-common-modules (0.3) unstable; urgency=low
+
+  * Agrego los modulos `walk` y `q`.
+
+ -- Mauro <mauro@sdf.org>  Wed, 16 Sep 2015 16:52:50 -0300
+
 node-common-modules (0.2) unstable; urgency=low
 
   * Remuevo todos los subdirectorios de node_modules

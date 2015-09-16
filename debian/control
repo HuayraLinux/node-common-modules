@@ -17,3 +17,15 @@ Description: Modulos de Nodejs utilizados en Huayra
  En este paquete estan disponibles la mayoria de los modulos de NodeJS
  utilizadas en las aplicaciones desarrolladas para la distribucion
  Huayra.
+
+Package: node-q
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `q`
+ En este paquete se instala el modulo `q`.
+
+Package: node-walk
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `walk`
+ En este paquete se instala el modulo `walk`.
