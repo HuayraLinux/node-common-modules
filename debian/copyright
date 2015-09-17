@@ -9,6 +9,14 @@ Files: node_modules/walk
 Copyright: 2011 AJ ONeal <coolaj86@gmail.com>
 License: MIT
 
+Files: node_modules/sequence
+Copyright: 2011 AJ ONeal <coolaj86@gmail.com>
+License: MIT
+
+Files: node_modules/foreachasync
+Copyright: 2011 AJ ONeal <coolaj86@gmail.com>
+License: MIT
+
 Files: debian/*
 Copyright: 2013 Mauro <mauro@sdf.org>
 License: GPL-2+

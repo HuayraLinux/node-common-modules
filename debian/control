@@ -29,3 +29,15 @@ Architecture: all
 Depends: ${misc:Depends}, nodejs (>= 0.8.0)
 Description: Modulo de Nodejs `walk`
  En este paquete se instala el modulo `walk`.
+
+Package: node-sequence
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `sequence`
+ En este paquete se instala el modulo `sequence`.
+
+Package: node-foreachasync
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `foreachasync`
+ En este paquete se instala el modulo `foreachasync`.
