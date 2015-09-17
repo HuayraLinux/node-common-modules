@@ -1,3 +1,11 @@
+node-common-modules (0.4.1) unstable; urgency=low
+
+  * Corrijo dependencia de `grunt-string-replace`
+  `node-grunt` > `node-grunt-cli`
+  * Agrego copyrights para los modulos
+
+ -- Mauro <mauro@sdf.org>  Thu, 17 Sep 2015 18:10:28 -0300
+
 node-common-modules (0.4) unstable; urgency=low
 
   * Agrego los modulos `ansi-style`, `has-color`, `strip-ansi`

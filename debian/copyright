@@ -18,24 +18,24 @@ Copyright: 2011 AJ ONeal <coolaj86@gmail.com>
 License: MIT
 
 Files: node_modules/chalk
-Copyright: 
-License:
+Copyright: Sindre Sorhus <sindresorhus@gmail.com>
+License: MIT
 
 Files: node_modules/ansi-styles
-Copyright: 
-License: 
+Copyright: Sindre Sorhus <sindresorhus@gmail.com>
+License: MIT
 
 Files: node_modules/strip-ansi
-Copyright: 
-License: 
+Copyright: Sindre Sorhus <sindresorhus@gmail.com>
+License: MIT
 
 Files: node_modules/has-color
-Copyright: 
-License: 
+Copyright: Sindre Sorhus <sindresorhus@gmail.com>
+License: MIT
 
 Files: node_modules/grunt-string-replace
-Copyright: 
-License: 
+Copyright: Erick Ruiz de Chavez <erickrdch@gmail.com>
+License: MIT
 
 Files: debian/*
 Copyright: 2013 Mauro <mauro@sdf.org>

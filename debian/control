@@ -69,6 +69,6 @@ Description: Modulo de Nodejs `chalk`
 
 Package: node-grunt-string-replace
 Architecture: all
-Depends: ${misc:Depends}, nodejs (>= 0.8.0), node-chalk, node-grunt
+Depends: ${misc:Depends}, nodejs (>= 0.8.0), node-chalk, node-grunt-cli
 Description: Modulo de Nodejs `grunt-string-replace`
  En este paquete se instala el modulo `grunt-string-replace`.
