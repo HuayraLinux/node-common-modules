@@ -1,3 +1,16 @@
+node-common-modules (0.4) unstable; urgency=low
+
+  * Agrego los modulos `ansi-style`, `has-color`, `strip-ansi`
+  `chalk` y `grunt-string-replace`
+
+ -- Mauro <mauro@sdf.org>  Thu, 17 Sep 2015 17:56:48 -0300
+
+node-common-modules (0.3.1) unstable; urgency=low
+
+  * Dependencias de node-walk > node-foreachasync > node-sequence
+
+ -- Mauro <mauro@sdf.org>  Thu, 17 Sep 2015 16:21:48 -0300
+
 node-common-modules (0.3) unstable; urgency=low
 
   * Agrego los modulos `walk` y `q`.

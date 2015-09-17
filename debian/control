@@ -18,18 +18,6 @@ Description: Modulos de Nodejs utilizados en Huayra
  utilizadas en las aplicaciones desarrolladas para la distribucion
  Huayra.
 
-Package: node-q
-Architecture: all
-Depends: ${misc:Depends}, nodejs (>= 0.8.0)
-Description: Modulo de Nodejs `q`
- En este paquete se instala el modulo `q`.
-
-Package: node-walk
-Architecture: all
-Depends: ${misc:Depends}, nodejs (>= 0.8.0)
-Description: Modulo de Nodejs `walk`
- En este paquete se instala el modulo `walk`.
-
 Package: node-sequence
 Architecture: all
 Depends: ${misc:Depends}, nodejs (>= 0.8.0)
@@ -38,6 +26,49 @@ Description: Modulo de Nodejs `sequence`
 
 Package: node-foreachasync
 Architecture: all
-Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Depends: ${misc:Depends}, nodejs (>= 0.8.0), node-sequence
 Description: Modulo de Nodejs `foreachasync`
  En este paquete se instala el modulo `foreachasync`.
+
+Package: node-q
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `q`
+ En este paquete se instala el modulo `q`.
+
+Package: node-walk
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0), node-foreachasync
+Description: Modulo de Nodejs `walk`
+ En este paquete se instala el modulo `walk`.
+
+Package: node-ansi-styles
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `ansi-styles`
+ En este paquete se instala el modulo `ansi-styles`.
+
+Package: node-strip-ansi
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `strip-ansi`
+ En este paquete se instala el modulo `strip-ansi`.
+
+Package: node-has-color
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `has-color`
+ En este paquete se instala el modulo `has-color`.
+
+Package: node-chalk
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0), node-strip-ansi,
+         node-ansi-styles, node-has-color
+Description: Modulo de Nodejs `chalk`
+ En este paquete se instala el modulo `chalk`.
+
+Package: node-grunt-string-replace
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0), node-chalk, node-grunt
+Description: Modulo de Nodejs `grunt-string-replace`
+ En este paquete se instala el modulo `grunt-string-replace`.

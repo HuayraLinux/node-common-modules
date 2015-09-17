@@ -17,6 +17,26 @@ Files: node_modules/foreachasync
 Copyright: 2011 AJ ONeal <coolaj86@gmail.com>
 License: MIT
 
+Files: node_modules/chalk
+Copyright: 
+License:
+
+Files: node_modules/ansi-styles
+Copyright: 
+License: 
+
+Files: node_modules/strip-ansi
+Copyright: 
+License: 
+
+Files: node_modules/has-color
+Copyright: 
+License: 
+
+Files: node_modules/grunt-string-replace
+Copyright: 
+License: 
+
 Files: debian/*
 Copyright: 2013 Mauro <mauro@sdf.org>
 License: GPL-2+
