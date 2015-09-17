@@ -1,3 +1,9 @@
+node-common-modules (0.4.2) unstable; urgency=low
+
+  * Agrego install de para `grunt-string-replace`
+
+ -- Mauro <mauro@sdf.org>  Thu, 17 Sep 2015 18:12:28 -0300
+
 node-common-modules (0.4.1) unstable; urgency=low
 
   * Corrijo dependencia de `grunt-string-replace`
