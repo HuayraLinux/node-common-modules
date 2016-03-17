@@ -37,8 +37,12 @@ Files: node_modules/grunt-string-replace
 Copyright: Erick Ruiz de Chavez <erickrdch@gmail.com>
 License: MIT
 
+Files: node_modules/bluebird
+Copyright: Petka Antonov <petka_antonov@hotmail.com>
+License: MIT
+
 Files: debian/*
-Copyright: 2013 Mauro <mauro@sdf.org>
+Copyright: 2015 Mauro <mauro@sdf.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
