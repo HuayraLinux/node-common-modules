@@ -3,7 +3,7 @@ node-common-modules (0.4.3) unstable; urgency=low
   * Agrego modulo `bluebird` version 3.3.4
   * Corrijo fecha de Copyright de `debian/*`
 
-  -- Mauro <mauro@sdf.org>  Thu, 17 Mar 2016 13:19:11 -0300
+ -- Mauro <mauro@sdf.org>  Thu, 17 Mar 2016 13:19:11 -0300
 
 node-common-modules (0.4.2) unstable; urgency=low
 
