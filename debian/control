@@ -125,7 +125,7 @@ Package: node-string-decoder
 Architecture: all
 Depends: ${misc:Depends}, nodejs (>= 0.8.0)
 Description: Modulo de Nodejs `string-decoder`
-2 En este paquete se instala el modulo `string-decoder`.
+ En este paquete se instala el modulo `string-decoder`.
 
 Package: node-readable-stream
 Architecture: all
