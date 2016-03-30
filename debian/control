@@ -78,3 +78,66 @@ Architecture: all
 Depends: ${misc:Depends}, nodejs (>= 0.8.0)
 Description: Modulo de Nodejs `bluebird`
  En este paquete se instala el modulo `bluebird`.
+
+Package: node-core-util-is
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `core-util-is`
+ En este paquete se instala el modulo `core-util-is`.
+
+Package: node-escape-string-regexp
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `escape-string-regexp`
+ En este paquete se instala el modulo `escape-string-regexp`.
+
+Package: node-inherits
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `inherits`
+ En este paquete se instala el modulo `inherits`.
+
+Package: node-isarray
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `isarray`
+ En este paquete se instala el modulo `isarray`.
+
+Package: node-object-assign
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `object-assign`
+ En este paquete se instala el modulo `object-assign`.
+
+Package: node-process-nextick-args
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `process-nextick-args`
+ En este paquete se instala el modulo `process-nextick-args`.
+
+Package: node-util-deprecate
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `util-deprecate`
+ En este paquete se instala el modulo `util-deprecate`.
+
+Package: node-string-decoder
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0)
+Description: Modulo de Nodejs `string-decoder`
+2 En este paquete se instala el modulo `string-decoder`.
+
+Package: node-readable-stream
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0),
+         node-process-nextick-args, node-inherits, node-util-deprecate,
+         node-string-decoder, node-isarray, node-core-util-is
+Description: Modulo de Nodejs `process-nextick-args`
+ En este paquete se instala el modulo `process-nextick-args`.
+
+Package: node-replacestream
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0),
+         node-escape-string-regexp, node-object-assign, node-readable-stream
+Description: Modulo de Nodejs `replacesteram`
+ En este paquete se instala el modulo `replacestream`.

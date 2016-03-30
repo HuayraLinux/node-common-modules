@@ -41,6 +41,46 @@ Files: node_modules/bluebird
 Copyright: Petka Antonov <petka_antonov@hotmail.com>
 License: MIT
 
+Files: node_modules/core-util-is
+Copyright: Isaac Z. Schlueter <i@izs.me>
+License: MIT
+
+Files: node_modules/escape-string-regexp
+Copyright: Sindre Sorhus <sindresorhus@gmail.com>
+License: MIT
+
+Files: node_modules/inherits
+Copyright: Isaac Z. Schlueter <i@izs.me>
+License: MIT
+
+Files: node_modules/isarray
+Copyright: Julian Gruber <mail@juliangruber.com>
+License: MIT
+
+Files: node_modules/object-assign
+Copyright: Sindre Sorhus <sindresorhus@gmail.com>
+License: MIT
+
+Files: node_modules/process-nextick-args
+Copyright: cwmma <calvin.metcalf@gmail.com>
+License: MIT
+
+Files: node_modules/util-deprecate
+Copyright: Nathan Rajlich <nathan@tootallnate.net>
+License: MIT
+
+Files: node_modules/string_decoder
+Copyright: rvagg <rod@vagg.org>
+License: MIT
+
+Files: node_modules/readable-stream
+Copyright: cwmma <calvin.metcalf@gmail.com>
+License: MIT
+
+Files: node_modules/replacestream
+Copyright: Eugene Ware <eugene@noblesamurai.com>
+License: MIT
+
 Files: debian/*
 Copyright: 2015 Mauro <mauro@sdf.org>
 License: GPL-2+

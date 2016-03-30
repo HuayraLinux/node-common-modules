@@ -1,3 +1,18 @@
+node-common-modules (0.4.4) unstable; urgency=low
+
+  * Agrego modulo `node-core-util-is`
+  * Agrego modulo `node-escape-string-regexp`
+  * Agrego modulo `node-inherits`
+  * Agrego modulo `node-isarray`
+  * Agrego modulo `node-object-assign`
+  * Agrego modulo `node-process-nextick-args`
+  * Agrego modulo `node-util-deprecate`
+  * Agrego modulo `node-string-decoder`
+  * Agrego modulo `node-readable-stream`
+  * Agrego modulo `node-replacestream`
+
+ -- Mauro <mauro@sdf.org>  Wed, 30 Mar 2016 15:15:27 -0300
+
 node-common-modules (0.4.3) unstable; urgency=low
 
   * Agrego modulo `bluebird` version 3.3.4
