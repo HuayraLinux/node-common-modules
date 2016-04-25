@@ -122,6 +122,11 @@ Copyright: Douglas Christopher Wilson <doug@somethingdoug.com>
 Jonathan Ong <me@jongleberry.com>
 License: MIT
 
+Files: node_modules/morgan
+Copyright: Douglas Christopher Wilson <doug@somethingdoug.com>
+Jonathan Ong <me@jongleberry.com>
+License: MIT
+
 Files: debian/*
 Copyright: 2015 Mauro <mauro@sdf.org>
 License: GPL-2+

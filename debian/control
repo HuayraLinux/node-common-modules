@@ -196,4 +196,10 @@ Depends: ${misc:Depends}, nodejs (>= 0.8.0)
 Description: Modulo de Nodejs `on-headers`
  En este paquete se instala el modulo `on-headers`.
 
-
+Package: node-morgan
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.8.0), node-basic-auth (>= 0.4.5),
+         node-depd (>= 0.4.5), node-ee-first (>= 0.4.5),
+         node-on-finished (>= 0.4.5), node-on-headers (>= 0.4.5)
+Description: Modulo de Nodejs `morgan`
+ En este paquete se instala el modulo `morgan`.
