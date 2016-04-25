@@ -1,3 +1,20 @@
+node-common-modules (0.4.5) unstable; urgency=low
+
+  * Agrego modulo `node-vary`
+  * Agrego modulo `node-cors`
+  * Agrego modulo `node-ini`
+  * Agrego modulo `node-home-config`
+  * Agrego modulo `node-basic-auth`
+  * Agrego modulo `node-depd`
+  * Agrego modulo `node-ee-first`
+  * Agrego modulo `node-on-finished`
+  * Agrego modulo `node-on-headers`
+  * Corrijo modulo `node-isarray`
+  * Agrego script `debian/package2copyright`
+  * Agrego script `debian/module2install`
+
+ -- Mauro <mauro@sdf.org>  Mon, 25 Apr 2016 13:18:09 -0300
+
 node-common-modules (0.4.4) unstable; urgency=low
 
   * Agrego modulo `node-core-util-is`

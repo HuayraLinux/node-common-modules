@@ -1,0 +1,45 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+import json
+import argparse
+
+author_format = "{name} <{email}>"
+copyright_format = """
+Files: node_modules/{module}
+Copyright: {author}
+License: {license}
+"""
+
+def read_file(module):
+    package_json = os.path.join(module, "package.json")
+    with open(package_json) as pjson:
+        pj = json.load(pjson)
+
+        if pj.get('contributors'):
+            author = [author_format.format(name=unicode(a.get('name')).encode("utf-8"),
+                                           email=a.get('email'))
+                      for a in pj.get('contributors')]
+        else:
+            author = [author_format.format(name=unicode(a.get('name')).encode("utf-8"),
+                                           email=a.get('email'))
+                      for a in pj.get('maintainers')]
+
+        print copyright_format.format(
+            author="\n".join(author),
+            module=os.path.basename(module),
+            license=pj.get('license') or ""
+            )
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-m', '--module',
+                        type=str,
+                        required=False,
+                        help="Uses this module's package.json file to create a debian/copyright file.")
+    args = parser.parse_args()
+
+    if args.module:
+        read_file(args.module)

@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+import argparse
+
+install_tmpl = "node_modules/{name}/* usr/lib/nodejs/{name}/"
+
+def create_install(module):
+    install_file = "node-{}.install".format(module)
+    base_path = "debian"
+    if os.path.basename(os.getcwd()) == "debian":
+        base_path = ""
+
+    with open(os.path.join(base_path, install_file), "w") as i_file:
+        i_file.write(install_tmpl.format(name=module))
+        i_file.close()
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-m', '--module',
+                        type=str,
+                        required=False,
+                        help="Uses this module's package.json file to create a debian/copyright file.")
+    args = parser.parse_args()
+
+    if args.module:
+        create_install(args.module)

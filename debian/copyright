@@ -81,6 +81,47 @@ Files: node_modules/replacestream
 Copyright: Eugene Ware <eugene@noblesamurai.com>
 License: MIT
 
+Files: node_modules/vary
+Copyright: Douglas Christopher Wilson <doug@somethingdoug.com>
+License: MIT
+
+Files: node_modules/cors
+Copyright: Troy Goode <troygoode@gmail.com>
+License: MIT
+
+Files: node_modules/ini
+Copyright: Isaac Z. Schlueter <i@izs.me>
+License: MIT
+
+Files: node_modules/home-config
+Copyright: James Nylen <jnylen@gmail.com>
+License: MIT
+
+Files: node_modules/basic-auth
+Copyright: tjholowaychuk <tj@vision-media.ca>
+           jonathanong <jonathanrichardong@gmail.com>
+           dougwilson <doug@somethingdoug.com>
+           jongleberry <jonathanrichardong@gmail.com>
+License: MIT
+
+Files: node_modules/depd
+Copyright: dougwilson <doug@somethingdoug.com>
+License: MIT
+
+Files: node_modules/on-headers
+Copyright: dougwilson <doug@somethingdoug.com>
+jongleberry <jonathanrichardong@gmail.com>
+License: MIT
+
+Files: node_modules/ee-first
+Copyright: Douglas Christopher Wilson <doug@somethingdoug.com>
+License: MIT
+
+Files: node_modules/on-finished
+Copyright: Douglas Christopher Wilson <doug@somethingdoug.com>
+Jonathan Ong <me@jongleberry.com>
+License: MIT
+
 Files: debian/*
 Copyright: 2015 Mauro <mauro@sdf.org>
 License: GPL-2+
